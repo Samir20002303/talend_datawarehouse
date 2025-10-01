@@ -2,21 +2,6 @@
 
 Ce projet est un **data warehouse** développé avec **Talend**. Il contient toutes les définitions de jobs, routines, schémas et métadonnées nécessaires à l’alimentation et la transformation des données.
 
-## Contenu du projet
-DATAWAREHOUSE_PROJECT/
-│
-├─ code/ # Jobs Talend principaux
-├─ documentations/ # Documentation du projet
-├─ metadata/ # Métadonnées (connexions, schémas, etc.)
-├─ poms/ # Fichiers Maven pour Talend
-├─ process/ # Jobs Talend
-├─ sqlPatterns/ # Scripts SQL utilisés
-├─ temp/ # Fichiers temporaires générés
-├─ .project # Fichier de configuration Talend
-├─ talend.project # Projet Talend
-└─ README.md # Ce fichier
-
-
 ## Prérequis
 
 - Talend Open Studio ou Talend Enterprise (selon la version utilisée pour le projet)
