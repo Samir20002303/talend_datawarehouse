@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_bbKBkC8REfC-CqoL8sCPfw" name="ventes" dataPackage="_bbSkcC8REfC-CqoL8sCPfw" Server="Localhost 127.0.0.1" FilePath="C:/Users/x380 yoga/Documents/Samir/DW/vape_dw_data/ventes.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="ventes" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="ventes:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bbSkcC8REfC-CqoL8sCPfw" name="default" dataManager="_bbKBkC8REfC-CqoL8sCPfw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bbSkcS8REfC-CqoL8sCPfw" id="_DplfQC8QEfC-CqoL8sCPfw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bbSkci8REfC-CqoL8sCPfw" label="id_vente" length="200" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bbSkcy8REfC-CqoL8sCPfw" label="id_produit" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bbSkdC8REfC-CqoL8sCPfw" label="id_client" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bbSkdS8REfC-CqoL8sCPfw" label="quantite" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bbSkdi8REfC-CqoL8sCPfw" label="id_date_vente" length="200" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,28 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="row1.quantite*row5.prix_unitaire">
+  <variables name="row1.id_vente" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.id_produit" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.id_client" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.quantite" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.id_date_vente" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.id_categorie" value="0" talendType="id_Integer"/>
+  <variables name="row2.nom_categorie" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.id_client" value="0" talendType="id_Integer"/>
+  <variables name="row3.nom" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.ville" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.id_date" value="0" talendType="id_Integer"/>
+  <variables name="row4.jour" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.mois" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.annee" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.jour_semaine" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row4.date_formatee" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row5.id_produit" value="0" talendType="id_Integer"/>
+  <variables name="row5.nom_produit" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.marque" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.id_categorie" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.id_sous_categorie" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.prix_unitaire" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row6.id_sous_categorie" value="0" talendType="id_Integer"/>
+  <variables name="row6.nom_sous_categorie" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.id_categorie" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>
